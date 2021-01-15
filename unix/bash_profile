@@ -1,0 +1,15 @@
+#Anzeige IP-Adresse Client
+alias myip="curl http://ipecho.net/plain; echo"
+#Anzeige der 5 Speicherfresser
+alias findlarge="find . -type f -exec ls -s {} \; | sort -n -r | head -5"
+#Nutze jede Sekunde!
+alias v="vim"
+#Hardware-Komponenten
+alias hardware='lshw'
+#Parentlock beenden(Sitzung von Firefox)
+alias parentlock='rm -f ~/.mozilla/firefox/*.default*/{lock,.parentlock}'
+#Taschenrechner
+alias rechner='bc -l'
+#Ping-Test
+alias pingt='ping stuttgarter-kickers.de'
+alias ll='ls -al'
